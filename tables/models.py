@@ -1,7 +1,7 @@
 from django.db import models
 from django.db import models
 
-class tables(models.Model):
+class Tables(models.Model):
     TABLE_AVAILABLE = 'Available'
     TABLE_RESERVED = 'Reserved'
     TABLE_OCCUPIED = 'Occupied'
@@ -15,3 +15,4 @@ class tables(models.Model):
     availability_status = models.CharField(max_length=20, choices=AVAILABILITY_CHOICES, default=TABLE_AVAILABLE)
     created_timestamp = models.DateTimeField(auto_now_add=True)
     updated_timestamp = models.DateTimeField(auto_now=True)
+    
