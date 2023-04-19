@@ -77,11 +77,8 @@ WSGI_APPLICATION = 'restaurant.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'restaurant',
-        'HOST': '192.168.0.201',
-        'USER': 'root',
-        'PASSWORD': 'genesis1',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 

@@ -10,7 +10,7 @@ class Tables(models.Model):
         (TABLE_RESERVED, 'Reserved'),
         (TABLE_OCCUPIED, 'Occupied'),
     ]
-    table_number = models.PositiveIntegerField(unique=True)
+    table_number = models.CharField(max_length=4,unique=True)
     seating_capacity = models.PositiveIntegerField()
     availability_status = models.CharField(max_length=20, choices=AVAILABILITY_CHOICES, default=TABLE_AVAILABLE)
     created_timestamp = models.DateTimeField(auto_now_add=True)
