@@ -70,6 +70,7 @@ CRUD Endpoints
 
 	○ Endpoint: GET /api/tables/:id
 	○ Response
+
 <code>	
 {
 "id": 1,
