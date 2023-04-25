@@ -22,6 +22,7 @@ Use Cases
 *Delete Table: Users should be able to delete tables that are no longer needed.
 
 Database Entities
+
 ------>Based on the requirements mentioned above, the following database entities are proposed:
 ● Table:
 ● Attributes:
@@ -33,6 +34,7 @@ Database Entities
 ● Updated timestamp
 
 CRUD Endpoints
+
 ------>The API should expose the following CRUD endpoints:
 ● Create Table: POST /api/tables
 ● Read Table: GET /api/tables/:id
@@ -40,6 +42,7 @@ CRUD Endpoints
 ● Delete Table: DELETE /api/tables/:id
 
 ------>API Specifications
+
 ● Create Table:
 	○ Endpoint: POST /api/tables
 	○ Request Payload:
