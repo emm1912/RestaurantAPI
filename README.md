@@ -1,4 +1,4 @@
-# CONAGUA-API
+# RestaurantAPI 
 
 ------>Product Overview
 The goal of this API is to provide functionality to manage information about
