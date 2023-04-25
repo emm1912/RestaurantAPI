@@ -46,9 +46,8 @@ CRUD Endpoints
 ------>API Specifications
 
 ● Create Table:
-
-	○ Endpoint: POST /api/tables
-	○ Request Payload:
+ ○ Endpoint: POST /api/tables
+ ○ Request Payload:
 <code>
 {
 "tableNumber": "101",
