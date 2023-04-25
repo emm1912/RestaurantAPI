@@ -26,22 +26,34 @@ Database Entities
 ------>Based on the requirements mentioned above, the following database entities are proposed:
 
 ● Table:
+
 ● Attributes:
+
 ● Table ID (Primary key)
+
 ● Table number (Unique)
+
 ● Seating capacity
+
 ● Availability status (e.g. Available, Reserved, Occupied)
+
 ● Created timestamp
+
 ● Updated timestamp
+
 
 CRUD Endpoints
 
 ------>The API should expose the following CRUD endpoints:
 
 ● Create Table: POST /api/tables
+
 ● Read Table: GET /api/tables/:id
+
 ● Update Table: PUT /api/tables/:id
+
 ● Delete Table: DELETE /api/tables/:id
+
 
 ------>API Specifications
 
