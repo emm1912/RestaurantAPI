@@ -13,13 +13,13 @@ to manage information about available tables in their restaurant.
 Use Cases
 ------>The API will support the following use cases:
 
-*Create Table: Users should be able to create new tables by providing details such as table number, seating capacity, and availability status.
+● Create Table: Users should be able to create new tables by providing details such as table number, seating capacity, and availability status.
 
-*Read Table: Users should be able to retrieve information about existing tables, including table details such as table number, seating capacity, and availability status.
+● Read Table: Users should be able to retrieve information about existing tables, including table details such as table number, seating capacity, and availability status.
 
-*Update Table: Users should be able to update table details, such as seating capacity or availability status, for existing tables.
+● Update Table: Users should be able to update table details, such as seating capacity or availability status, for existing tables.
 
-*Delete Table: Users should be able to delete tables that are no longer needed.
+● Delete Table: Users should be able to delete tables that are no longer needed.
 
 Database Entities
 
@@ -92,7 +92,9 @@ CRUD Endpoints
 "updatedAt": "2023-04-14T10:00:00Z"
 }
 </code>
-●  Update Table:                                                                                                                                                                                               	○ Endpoint: PUT /api/tables/:id   
+●  Update Table: 
+
+○ Endpoint: PUT /api/tables/:id   
 
 Request Payload:
 <code>
