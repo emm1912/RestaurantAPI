@@ -80,8 +80,8 @@ CRUD Endpoints
 "updatedAt": "2023-04-14T10:00:00Z"
 }
 </code>
-●  Update Table:                                                                      
-	○ Endpoint: PUT /api/tables/:id                                                           
+●  Update Table:                                                                                                                                          
+	○ Endpoint: PUT /api/tables/:id                                                                                                                      
 
 Request Payload:
 <code>
