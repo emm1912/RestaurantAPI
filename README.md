@@ -14,8 +14,11 @@ Use Cases
 ------>The API will support the following use cases:
 
 ● Create Table: Users should be able to create new tables by providing details such as table number, seating capacity, and availability status.
+
 ● Read Table: Users should be able to retrieve information about existing tables, including table details such as table number, seating capacity, and availability status.
+
 ● Update Table: Users should be able to update table details, such as seating capacity or availability status, for existing tables.
+
 ● Delete Table: Users should be able to delete tables that are no longer needed.
 
 Database Entities
