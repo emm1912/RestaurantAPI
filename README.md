@@ -80,7 +80,8 @@ CRUD Endpoints
 "updatedAt": "2023-04-14T10:00:00Z"
 }
 </code>
-●  Update Table:                                                                                                                                                                                               	○ Endpoint: PUT /api/tables/:id                                                                                                                                                                   
+●  Update Table:                                                                                                                                                                                               	○ Endpoint: PUT /api/tables/:id   
+
 Request Payload:
 <code>
 {
@@ -88,7 +89,9 @@ Request Payload:
 "availabilityStatus": "Reserved"
 }
 </code>
+
 ● Response
+
 <code>
 {
 "id": 1,
@@ -99,9 +102,11 @@ Request Payload:
 "updatedAt": "2023-04-14T10:01:00Z"
 }
 </code>
+
 Delete Table:                                                                                                                                               
 	○ Endpoint: DELETE /api/tables/:id                                                                                              
-	○ Response                                                                                                         
+	○ Response   
+	
 <code>
 {
 "id": 1,
