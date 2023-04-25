@@ -45,9 +45,9 @@ CRUD Endpoints
 
 ------>API Specifications
 
-● Create Table:                                                                                               
- ○ Endpoint: POST /api/tables                                                            
- ○ Request Payload:
+● Create Table:                                                                                                                                             
+	○ Endpoint: POST /api/tables                                                            
+	○ Request Payload:
 <code>
 {
 "tableNumber": "101",
@@ -66,10 +66,9 @@ CRUD Endpoints
 "updatedAt": "2023-04-14T10:00:00Z"
 }
 </code>
-● Read Table:
-
-	○ Endpoint: GET /api/tables/:id
-	○ Response
+● Read Table:                                                                                  
+	○ Endpoint: GET /api/tables/:id                                                                        
+	○ Response                                   
 
 <code>	
 {
@@ -81,8 +80,8 @@ CRUD Endpoints
 "updatedAt": "2023-04-14T10:00:00Z"
 }
 </code>
-●  Update Table:
-	○ Endpoint: PUT /api/tables/:id
+●  Update Table:                                                                      
+	○ Endpoint: PUT /api/tables/:id                                                           
 
 Request Payload:
 <code>
@@ -102,10 +101,9 @@ Request Payload:
 "updatedAt": "2023-04-14T10:01:00Z"
 }
 </code>
-Delete Table:
-
-	○ Endpoint: DELETE /api/tables/:id
-	○ Response
+Delete Table:                                                                                  
+	○ Endpoint: DELETE /api/tables/:id                                                              
+	○ Response                                                                           
 <code>
 {
 "id": 1,
