@@ -117,7 +117,7 @@ Request Payload:
 }
 </code>
 
-Delete Table:                                                                                                                                               
+● Delete Table:                                                                                                                                               
 	○ Endpoint: DELETE /api/tables/:id                                                                                              
 	○ Response   
 	
