@@ -45,8 +45,8 @@ CRUD Endpoints
 
 ------>API Specifications
 
-● Create Table:
- ○ Endpoint: POST /api/tables
+● Create Table: \n
+ ○ Endpoint: POST /api/tables \n
  ○ Request Payload:
 <code>
 {
