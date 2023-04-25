@@ -24,6 +24,7 @@ Use Cases
 Database Entities
 
 ------>Based on the requirements mentioned above, the following database entities are proposed:
+
 ● Table:
 ● Attributes:
 ● Table ID (Primary key)
@@ -36,6 +37,7 @@ Database Entities
 CRUD Endpoints
 
 ------>The API should expose the following CRUD endpoints:
+
 ● Create Table: POST /api/tables
 ● Read Table: GET /api/tables/:id
 ● Update Table: PUT /api/tables/:id
@@ -44,6 +46,7 @@ CRUD Endpoints
 ------>API Specifications
 
 ● Create Table:
+
 	○ Endpoint: POST /api/tables
 	○ Request Payload:
 <code>
@@ -65,6 +68,7 @@ CRUD Endpoints
 }
 </code>
 ● Read Table:
+
 	○ Endpoint: GET /api/tables/:id
 	○ Response
 <code>	
@@ -99,6 +103,7 @@ Request Payload:
 }
 </code>
 Delete Table:
+
 	○ Endpoint: DELETE /api/tables/:id
 	○ Response
 <code>
