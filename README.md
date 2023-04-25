@@ -46,15 +46,15 @@ CRUD Endpoints
 ● Create Table:
 	○ Endpoint: POST /api/tables
 	○ Request Payload:
-
+<code>
 {
 "tableNumber": "101",
 "seatingCapacity": 4,
 "availabilityStatus": "Available"
 }
-
+</code>
 ● Response
-
+<code>
 {
 "id": 1,
 "tableNumber": "101",
@@ -63,10 +63,11 @@ CRUD Endpoints
 "createdAt": "2023-04-14T10:00:00Z",
 "updatedAt": "2023-04-14T10:00:00Z"
 }
-
+</code>
 ● Read Table:
 	○ Endpoint: GET /api/tables/:id
 	○ Response
+<code>	
 {
 "id": 1,
 "tableNumber": "101",
@@ -75,18 +76,19 @@ CRUD Endpoints
 "createdAt": "2023-04-14T10:00:00Z",
 "updatedAt": "2023-04-14T10:00:00Z"
 }
-
+</code>
 ●  Update Table:
 	○ Endpoint: PUT /api/tables/:id
 
 Request Payload:
+<code>
 {
 "seatingCapacity": 6,
 "availabilityStatus": "Reserved"
 }
-
+</code>
 ● Response
-
+<code>
 {
 "id": 1,
 "tableNumber": "101",
@@ -95,11 +97,11 @@ Request Payload:
 "createdAt": "2023-04-14T10:00:00Z",
 "updatedAt": "2023-04-14T10:01:00Z"
 }
-
+</code>
 Delete Table:
 	○ Endpoint: DELETE /api/tables/:id
 	○ Response
-
+<code>
 {
 "id": 1,
 "tableNumber": "101",
@@ -108,3 +110,4 @@ Delete Table:
 "createdAt": "2023-04-14T10:00:00Z",
 "updatedAt": "2023-04-14T10:00:00Z"
 }
+</code>
