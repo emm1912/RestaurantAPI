@@ -1,6 +1,7 @@
 # RestaurantAPI DJANGO AWS ELASTIC BEANS
 
 ------>Try it on AWS 
+
 Access https://reqbin.com/
 Paste this URL: http://restaurant-env.eba-3yh3irfk.us-west-2.elasticbeanstalk.com/api/tables/
 To the right of the URL it must say "GET" "US"
