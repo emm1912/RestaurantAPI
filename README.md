@@ -1,4 +1,14 @@
-# RestaurantAPI 
+# RestaurantAPI DJANGO AWS ELASTIC BEANS
+
+------>Try it on AWS 
+Access https://reqbin.com/
+Paste this URL: http://restaurant-env.eba-3yh3irfk.us-west-2.elasticbeanstalk.com/api/tables/
+To the right of the URL it must say "GET" "US"
+Set "Authorization" to "No Auth"
+And press SEND, to the right you will get a status 200(OK) with the saves tables in the DB
+Experiment with it you can GET, POST, PUT and DELETE info.
+
+More info about it, right below.......
 
 ------>Product Overview
 The goal of this API is to provide functionality to manage information about
@@ -70,12 +80,9 @@ CRUD Endpoints
 ● Response
 <code>
 {
-"id": 1,
 "tableNumber": "101",
 "seatingCapacity": 4,
-"availabilityStatus": "Available",
-"createdAt": "2023-04-14T10:00:00Z",
-"updatedAt": "2023-04-14T10:00:00Z"
+"availabilityStatus": "Available"
 }
 </code>
 ● Read Table:                                                                                  
