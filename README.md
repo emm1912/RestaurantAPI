@@ -3,11 +3,11 @@
 ------>Try it on AWS 
 
 Access https://reqbin.com/
-Paste this URL: http://restaurant-env.eba-3yh3irfk.us-west-2.elasticbeanstalk.com/api/tables/
+Inside it, paste this URL: http://restaurant-env.eba-3yh3irfk.us-west-2.elasticbeanstalk.com/api/tables/ where it says https://google.com
 To the right of the URL it must say "GET" "US"
 Set "Authorization" to "No Auth"
-And press SEND, to the right you will get a status 200(OK) with the saves tables in the DB
-Experiment with it you can GET, POST, PUT and DELETE info.
+And press SEND, to the right you will get a status 200(OK) with the tables saved in the DB
+Experiment with it you can use GET, POST, PUT and DELETE.
 
 More info about it, right below.......
 
