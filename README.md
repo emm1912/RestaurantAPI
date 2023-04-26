@@ -3,7 +3,7 @@
 ------>Try it on AWS 
 
 Access https://reqbin.com/
-Inside it, paste this URL: http://restaurant-env.eba-3yh3irfk.us-west-2.elasticbeanstalk.com/api/tables/ where it says https://google.com
+Inside it, paste the URL that was inside the CV, where it says https://google.com
 To the right of the URL it must say "GET" "US"
 Set "Authorization" to "No Auth"
 And press SEND, to the right you will get a status 200(OK) with the tables saved in the DB
